@@ -9,6 +9,14 @@ class MemeGenerator extends Component {
           randomImg: 'http://i.imgflip.com/1bij.jpg',
           allMemeImgs: [],
         }
+        this.handleChange = this.handleChange.bind(this);
+    }
+
+    handleChange(event) {
+      const { name, value } = event.target;
+      this.setState({
+        [name]: value,
+      })
     }
 
     componentDidMount() {
@@ -31,6 +39,7 @@ class MemeGenerator extends Component {
                 type="text"
                 name="topText"
                 value={this.state.topText}
+                onChange={this.handleChange}
                 placeholder="Top Text"
               />
 
@@ -38,6 +47,7 @@ class MemeGenerator extends Component {
                 type="text"
                 name="bottomText"
                 value={this.state.bottomText}
+                onChange={this.handleChange}
                 placeholder="Bottom Text"
               />
 
