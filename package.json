@@ -42,5 +42,23 @@
     "stylelint-config-standard": "^20.0.0",
     "stylelint-csstree-validator": "^1.8.0",
     "stylelint-scss": "^3.17.2"
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rammazzoti2000/meme-generator-react.git"
+  },
+  "keywords": [
+    "meme-generator",
+    "react",
+    "tutorial",
+    "scrimba"
+  ],
+  "author": "Alexandru Bangau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rammazzoti2000/meme-generator-react/issues"
+  },
+  "homepage": "https://git.heroku.com/meme-generator-reactjsx.git"
 }
